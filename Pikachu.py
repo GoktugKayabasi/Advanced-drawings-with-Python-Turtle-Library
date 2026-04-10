@@ -1,13 +1,12 @@
 import turtle
 
-
 def gajurel(x, y):
     turtle.setx(x)
     turtle.sety(y)
     print(x, y)
 
-
-class Code_BY_Sumalya:
+# Sınıf ismini senin adına güncelledim
+class Code_BY_Goktug:
 
     def __init__(self):
         self.t = turtle.Turtle()
@@ -223,7 +222,6 @@ class Code_BY_Sumalya:
         t.circle(30, 50)
         t.seth(20)
         t.circle(300, 35)
-        # print(t.pos())
 
         #
         t.seth(240)
@@ -406,7 +404,6 @@ class Code_BY_Sumalya:
         t.right(15)
         t.circle(-300, 2)
         ##############
-        # print(t.pos())
         t.seth(30)
         t.fd(40)
         t.left(100)
@@ -487,7 +484,6 @@ class Code_BY_Sumalya:
         t.circle(200, 70)
         t.circle(30, 60)
         t.fd(70)
-        # print(t.pos())
         t.right(35)
         t.fd(50)
         t.circle(8, 100)
@@ -532,12 +528,11 @@ class Code_BY_Sumalya:
 def main():
     print('Painting the Cartoon... ')
     turtle.screensize(800, 600)
-    turtle.title('Code BY Sumalya')
-    cartoon = Code_BY_Sumalya()
+    # Pencere başlığını senin adına güncelledim
+    turtle.title('Code BY Göktuğ')
+    cartoon = Code_BY_Goktug()
     cartoon.start()
     turtle.mainloop()
-
-
 
 if __name__ == '__main__':
     main()

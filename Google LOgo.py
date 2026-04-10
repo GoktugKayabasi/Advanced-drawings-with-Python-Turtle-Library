@@ -73,7 +73,6 @@ t.right(90)
 t.circle(-150,50)
 t.right(90)
 t.forward(50)
-
 t.end_fill()
 t.penup()
 ##For display the string statement(name)
